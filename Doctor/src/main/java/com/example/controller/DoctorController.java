@@ -48,7 +48,6 @@ public class DoctorController
 	{
 		return  service.getByName(name);
 	}
-	
 //	@GetMapping("/DoctorWithPatient/{id}")
 //	public ResponseTemplateVO getDoctorWithPatient(@PathVariable int id)
 //	{

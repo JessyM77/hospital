@@ -1,0 +1,15 @@
+#select{
+    height: 50px;
+    width: 500px;
+    border: solid 2px rgb(35, 90, 240);
+    color: black;
+    background-color: rgba(18, 167, 147, 0.486);
+}
+table{
+    background-color: rgba(236, 70, 139, 0.548);
+    width: 40%;
+    color: black;
+    font-weight: 700;
+    font-style: oblique;
+    
+}

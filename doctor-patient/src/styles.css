@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    background-image: url("assets/images/img.jpg");
+    height: 650px;
+    background-size: 70%;
+}
+
+.doctor{
+    background-image: url("assets/images/doctor.jpg"); 
+    height: 650px;
+    background-size: 70%;
+} 
+.patient{
+    background-image: url("assets/images/patient.jpg");
+    height: 650px;
+    background-size: 70%;
+}
+
+

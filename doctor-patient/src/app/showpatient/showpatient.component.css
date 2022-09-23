@@ -1,0 +1,18 @@
+#search{
+    height: 50px;
+    width: 500px;
+    border: solid 2px rgb(35, 90, 240);
+    color: black;
+}
+table{
+    width: 40%;
+    background-color: rgba(26, 172, 70, 0.438);
+    font-style: oblique;
+    font-weight: 700;
+}
+
+#change{
+    background-color: rgba(231, 111, 64, 0.562);
+    height: 100px;
+    width: 40%;
+}

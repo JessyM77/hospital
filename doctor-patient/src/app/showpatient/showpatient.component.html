@@ -1,0 +1,42 @@
+
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h1 style="color: white;">Patient Information</h1>
+    </div>
+</nav>
+<div class = "patient">
+<div class="mt-3 mx-5" id="change" >
+    
+    <Label style="color: black;">Enter Patient Id</Label><br>
+    <input type="text"  placeholder="Search by patient Id" id="search" (change)="onEnter($event)"  [(ngModel)]="searchValue">
+    
+</div>
+
+<table class="table mt-3 mx-5 my-3" *ngIf="showTable">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Visited Doctor Name</th>
+            <th scope="col">Date of visit</th>
+            <th scope="col">Prescription</th>
+            <!-- <th scope="col">Action</th> -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let patient of patients">
+            <td>{{patient.id}}</td>
+            <td>{{patient.name}}</td>
+            <td>{{patient.age}}</td>
+            <td>{{patient.visitedDoctorName}}</td>
+            <td>{{patient.dateOfVisit}}</td>
+            <td>{{patient.prescription}}</td>
+            <!-- <td>
+                <button  type="button" class="btn btn-info"  patient-bs-toggle="modal" patient-bs-target="#exampleModal">Edit</button>
+                <button  class="btn btn-danger mx-3">Delete</button>
+            </td> -->
+        </tr>
+    </tbody>
+  </table>
+</div>
